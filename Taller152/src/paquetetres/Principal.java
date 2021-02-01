@@ -43,7 +43,7 @@ public class Principal {
         }
         op = entrada.nextInt();
         try {
-            if ((op < 5) || (op > 0)) {
+            if ((op < 5) && (op > 0)) {
                 cadenaFinal = String.format("Se le presta el libro %s cuyo autor "
                         + "es %s y tiene un identificativo de %d",
                         libros[op], autores[op],
